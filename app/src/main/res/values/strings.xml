@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TUNEIT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="name">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="birthDay">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="welcome">Welcome!</string>
+    <string name="music_library">Music Library</string>
+    <string name="share">Share</string>
+</resources>

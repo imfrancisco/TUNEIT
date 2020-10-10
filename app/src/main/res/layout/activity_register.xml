@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:orientation="vertical"
+tools:context=".RegisterActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+<!--    Displays the Logo-->
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/logo" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+<!--       Creates the EditText so the user can input the name-->
+       <EditText
+           android:id="@+id/editText_name"
+           android:layout_width="185dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:hint="@string/name" />
+
+<!--       Creates the EditText so the user can input the last name-->
+       <EditText
+           android:id="@+id/editText_lastName"
+           android:layout_width="185dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:hint="@string/lastName" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<!--        Creates the EditText so the user can input the email-->
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/email" />
+
+<!--        Creates the EditText so the user can input the date of birth-->
+        <EditText
+            android:id="@+id/editText_birthDay"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/birthDay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<!--        Creates the EditText so the user can input the username-->
+        <EditText
+            android:id="@+id/editText_username"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:layout_marginTop="15dp"/>
+
+<!--        Creates the EditText so the user can input the password-->
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/password" />
+    </LinearLayout>
+
+<!--    Creates the EditText so the user can input the password again to confirm it-->
+    <EditText
+        android:id="@+id/editText_confirmPassword"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/confirmPassword" />
+
+<!--    Creates the Register Button-->
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<!--        Creates the TextView to display "Already Registered?"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_registered" />
+
+<!--        Creates the TextView to display "LOGIN"-->
+        <TextView
+            android:id="@+id/textView_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:paddingLeft="15dp"
+            android:text="@string/Login"
+            android:textColor="#9A0D0D"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
